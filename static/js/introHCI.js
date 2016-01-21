@@ -28,9 +28,9 @@ function projectClick(e){
 	// the object that triggered the event
 	//$(this).css("background-color", "#7fff00");
 
-	//var projectTitle = $(this).find("p").text();
-	//var jumbotronHeader = $("#jumbotron h1");
-	//jumbotronHeader.text(projectTitle);
+	var projectTitle = $(this).find("p").text();
+	var jumbotronHeader = $("#jumbotron h1");
+	jumbotronHeader.text(projectTitle);
 
 	//var containingProject = $(this).closest(".project");
 	//var description = $(containingProject).find(."project-description");
